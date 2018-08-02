@@ -96,17 +96,17 @@ ul li a:hover{
 #nav li a:hover { color: #fff; opacity:1; }*/
 
 #home{
-	background: url('./assets/images/coffee-macarons.jpg');
+	background: url('./assets/images/coffee-macarons.png');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 1100px;
-	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	position: relative;
 	z-index: -1;
+	background-repeat: no-repeat;
 }
 
 #product{

@@ -20,17 +20,22 @@ function initialize() {
     // Multiple Markers
     var markers = [
         ['CrawFish King, Seattle', 47.5962846,-122.32268120000003],
-        ['StarBucks, White Center', 47.514188,-122.35474799999997]
+        ['StarBucks, White Center', 47.514188,-122.35474799999997],
+        ['StarBucks, WestWood Village', 47.522716,-122.365602]
     ];
                         
     // Info Window Content
     var infoWindowContent = [
         ['<div class="info_content">' +
         '<h3>CrawFish King</h3>' +
-        '<a href="https://www.yelp.com/biz/crawfish-king-seattle-2">Click here for more information about CrawFish King</a>' + '</div>'],
+        '<a href="https://www.yelp.com/biz/crawfish-king-seattle-2"><u>CLICK HERE</u> for more information about CrawFish King</a>' + '</div>'],
         ['<div class="info_content">' +
         '<h3>StarBucks White Center</h3>' +
-        '<a href="https://www.yelp.com/biz/starbucks-seattle-351">Click here for more information about the White Center StarBucks</a>' +
+        '<a href="https://www.yelp.com/biz/starbucks-seattle-351"><u>CLICK HERE</u> for more information about the White Center StarBucks</a>' +
+        '</div>'],
+        ['<div class="info_content">' +
+        '<h3>StarBucks WestWood Village</h3>' +
+        '<a https://www.yelp.com/biz/starbucks-seattle-163"><u>CLICK HERE</u> for more information about the White Center StarBucks</a>' +
         '</div>']
     ];
         
@@ -61,7 +66,7 @@ function initialize() {
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-        this.setZoom(14);
+        this.setZoom(10);
         google.maps.event.removeListener(boundsListener);
     });
     
