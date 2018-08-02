@@ -154,6 +154,9 @@ ul li a:hover{
 	}
 	#home {
 		/*resize background image for mobile*/
+		-webkit-background-size: 205%;
+		-moz-background-size: 205%;
+		-o-background-size: 205%;
 		background-size: 205%;
 		background-position: 32% 14%;
 		height: 485px;
