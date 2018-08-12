@@ -97,7 +97,7 @@ ul li a:hover{
 
 #home{
 	background: url('./assets/images/coffee-macarons.png');
-	-webkit-background-size: cover;
+	-webkit-background-size: cover !important;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -154,7 +154,7 @@ ul li a:hover{
 	}
 	#home {
 		/*resize background image for mobile*/
-		-webkit-background-size: 205%;
+		-webkit-background-size: 205% !important;
 		-moz-background-size: 205%;
 		-o-background-size: 205%;
 		background-size: 205%;
