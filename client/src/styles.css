@@ -97,8 +97,9 @@ ul li a:hover{
 
 #home{
 	background: url('./assets/images/coffee-macarons.png');
-	background-size: cover;
+
 	height: 1100px;
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	position: relative;
@@ -151,10 +152,14 @@ ul li a:hover{
 	}
 	#home {
 		/*resize background image for mobile*/
+/*		-webkit-background-size: 205%;
+		-moz-background-size: 205%;
+		-o-background-size: 205%;
 		background-size: 205%;
-		background-position: 32% 14%;
+		-webkit-background-position: 32% 14%;
+		background-position: 32% 14%;*/
 		height: 485px;
-		max-width: 100%;
+	/*	max-width: 100%;*/
 	}
 	#product {
 		height: 100%;
@@ -189,14 +194,14 @@ ul li a:hover{
 	}
 	#home {
 		/*resize background image for mobile*/
-		-webkit-background-size: 205%;
+	/*	-webkit-background-size: 205%;
 		-moz-background-size: 205%;
 		-o-background-size: 205%;
 		background-size: 205%;
 		-webkit-background-position: 32% 14%;
-		background-position: 32% 14%;
+		background-position: 32% 14%;*/
 		height: 485px;
-		max-width: 100%;
+		/*max-width: 100%;*/
 	}
 	#main-title {
 		padding-top: 263px;
