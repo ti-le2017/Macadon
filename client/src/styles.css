@@ -220,25 +220,25 @@ ul li a:hover{
 /*SCREEN SIZE FOR IPAD PRO*/
 @media only screen and (min-width: 769px) and (max-width: 1026px){
 	h1 {
-		padding-top: 118px;
+		padding-top: 100px;
 		font-size: 5em;
 		text-align: left;
 		padding-left: 57px;
 	}
 	#home {
 		/*resize background image for mobile*/
-		height: 485px;
+		height: 706px;
 		max-width: 100%;
-		-webkit-background-size: 205%;
-		background-size: 205%;
+		-webkit-background-size: 110%;
+		background-size: 110%;
 		-webkit-background-position: 32% 14%;
 		background-position: 32% 14%;
 		-webkit-background-attachment: scroll;
 		background-attachment: scroll;
 	}
 	#main-title {
-		padding-top: 380px;
-		font-size: 3em;
+		padding-top: 218px;
+		font-size: 2em;
 		padding-left: 346px;
 	}	
 	#product{
