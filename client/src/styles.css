@@ -160,6 +160,7 @@ ul li a:hover{
 		height: 485px;
 		-webkit-background-size: 205%;
 		-webkit-background-position: 32% 14%;
+		-webkit-max-width: 100%;
 	/*	max-width: 100%;*/
 	}
 	#product {
@@ -204,6 +205,7 @@ ul li a:hover{
 		height: 485px;
 		-webkit-background-size: 205%;
 		-webkit-background-position: 32% 14%;
+		-webkit-max-width: 100%;
 		/*max-width: 100%;*/
 	}
 	#main-title {
