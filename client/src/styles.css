@@ -162,6 +162,7 @@ ul li a:hover{
 		background-position: 32% 14%;
 		height: 485px;
 		max-width: 100%;*/
+		-webkit-background-size:cover;
 	}
 	#product {
 		height: 100%;
