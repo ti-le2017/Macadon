@@ -97,13 +97,13 @@ ul li a:hover{
 
 #home{
 	background: url('./assets/images/coffee-macarons.png');
-	background-size: cover;
 	height: 1100px;
 	background-position: center;
 	background-attachment: fixed;
 	position: relative;
 	z-index: -1;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #product{
